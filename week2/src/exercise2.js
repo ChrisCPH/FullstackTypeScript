@@ -39,7 +39,8 @@ calculate(4, 2, subtraction).then(function(result) {
     console.log("error: " + reason);
 })
 
-calculate(4, 2, multiplication).then(function(result) {
+calculate(4, 2, multiplication).then(
+    function(result) {
     console.log("success:" + result);
   }, function(reason){
     console.log("error: " + reason);

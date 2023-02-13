@@ -24,7 +24,7 @@ function getLocationOld(callback) {
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 function getWeather(coords) {
-    const apiKey = "d96d00078e5648eb9d5eb446aea25c27";
+    const apiKey = "Api key";
     return new Promise(function(resolve, reject) {
         try {
             const url = 'http://api.openweathermap.org/data/2.5/weather?lat=' + coords.latitude + '&lon=' + coords.longitude + '&apiKey=' + apiKey

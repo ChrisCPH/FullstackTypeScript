@@ -24,7 +24,7 @@ function getLocationOld(callback) {
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 function getWeather(coords) {
-    const apiKey = "Api key";
+    const apiKey = "API key";
     return new Promise(function(resolve, reject) {
         try {
             const url = 'http://api.openweathermap.org/data/2.5/weather?lat=' + coords.latitude + '&lon=' + coords.longitude + '&apiKey=' + apiKey
@@ -45,7 +45,7 @@ function getWeather(coords) {
 }
 
 function getWeatherOld(coords, callback) {
-    const apiKey = "d96d00078e5648eb9d5eb446aea25c27";
+    const apiKey = "API key";
     const url = 'http://api.openweathermap.org/data/2.5/weather?lat=' + coords.latitude + '&lon=' + coords.longitude + '&apiKey=' + apiKey
     const req = new XMLHttpRequest();
     req.open('GET', url);
@@ -79,3 +79,5 @@ getLocation()
     .catch((error) => {
         console.log(error)
     });
+
+document.getElementById('weather').innerHTML = weather.main.temp;

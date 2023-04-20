@@ -1,1 +1,0 @@
-Lav måske mongoose inde i resolvers så man kan snakke med db

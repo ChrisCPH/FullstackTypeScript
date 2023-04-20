@@ -1,0 +1,26 @@
+[
+  {
+    "model": "Audi",
+    "year": 2012,
+    "price": 40000,
+    "color": "black"
+  },
+  {
+    "model": "BMW",
+    "year": 2015,
+    "price": 35000,
+    "color": "white"
+  },
+  {
+    "model": "Mercedes",
+    "year": 2013,
+    "price": 45000,
+    "color": "red"
+  },
+  {
+    "model": "Volkswagen",
+    "year": 2014,
+    "price": 42000,
+    "color": "blue"
+  }
+]

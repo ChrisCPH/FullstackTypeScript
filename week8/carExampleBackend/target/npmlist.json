@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"fullstack-backend-startcode","dependencies":{"dotenv":{"version":"16.0.3"},"express":{"version":"4.18.2"},"log4js":{"version":"6.9.1"},"mongoose":{"version":"7.0.2"},"nodemon":{"version":"2.0.21"}}}
